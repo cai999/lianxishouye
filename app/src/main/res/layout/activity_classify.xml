@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.shouye.ClassifyActivity">
+  <com.jcodecraeer.xrecyclerview.XRecyclerView
+      android:id="@+id/zhu_xrv"
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="match_parent"/>
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_weight="3"
+      android:orientation="vertical"
+      android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="京东超市"/>
+  <com.jcodecraeer.xrecyclerview.XRecyclerView
+      android:id="@+id/item_xrv"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+  </LinearLayout>
+</LinearLayout>
